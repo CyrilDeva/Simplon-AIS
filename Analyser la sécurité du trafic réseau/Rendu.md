@@ -2,7 +2,7 @@
 
 ## Capturer le processus DORA du protocole DHCP
 Le processus DORA représente les étapes du protocole DHCP, signifiant Discover, Offer, Request, et Acknowledge.
-![Alt Text](Screenshots/WiresharkDHCP.pngimage.png)
+![Wireshark DORA](https://github.com/CyrilDeva/Simplon-AIS/blob/main/Analyser%20la%20s%C3%A9curit%C3%A9%20du%20trafic%20r%C3%A9seau/Screenshots/WiresharkDHCP.png?raw=true)
 
 
 ## Qu’est-ce que le DHCP Starvation / Snooping ? Rogue DHCP ?
