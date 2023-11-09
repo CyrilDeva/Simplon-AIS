@@ -54,7 +54,7 @@ PKI (Public Key Infrastructure) : Ensemble de ressources, processus, et protocol
 - **Confidentialité :** Utiliser FTPS (FTP sécurisé) qui utilise SSL/TLS pour chiffrer les données.
 
 ## 15. Capturer un handshake TLS – puis déchiffrer le trafic avec votre certificat
-![Wireshark TLS](https://github.com/CyrilDeva/Simplon-AIS/blob/main/Analyser%20la%20s%C3%A9curit%C3%A9%20du%20trafic%20r%C3%A9seau/Screenshots/WiresharkTLS.png?raw=true)
+![Wireshark TLS](https://github.com/CyrilDeva/Simplon-AIS/blob/main/Analyser%20la%20s%C3%A9curit%C3%A9%20du%20trafic%20r%C3%A9seau/Screenshots/WireSharkeTLS.png?raw=true)
 
 ## 16. Qu’est-ce qu’une autorité de certification (AC) racine ? Qu'est qu'une AC intermediaire ?
 - **Autorité de Certification (AC) racine :** Entité de confiance émettant et vérifiant les certificats numériques.
