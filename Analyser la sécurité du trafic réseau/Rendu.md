@@ -54,7 +54,7 @@ PKI (Public Key Infrastructure) : Ensemble de ressources, processus, et protocol
 - **Confidentialité :** Utiliser FTPS (FTP sécurisé) qui utilise SSL/TLS pour chiffrer les données.
 
 ## 15. Capturer un handshake TLS – puis déchiffrer le trafic avec votre certificat
-![Wireshark FTP](https://github.com/CyrilDeva/Simplon-AIS/blob/main/Analyser%20la%20s%C3%A9curit%C3%A9%20du%20trafic%20r%C3%A9seau/Screenshots/WiresharkFTP.png?raw=true)
+![Wireshark TLS](https://github.com/CyrilDeva/Simplon-AIS/blob/main/Analyser%20la%20s%C3%A9curit%C3%A9%20du%20trafic%20r%C3%A9seau/Screenshots/WiresharkTLS.png?raw=true)
 
 ## 16. Qu’est-ce qu’une autorité de certification (AC) racine ? Qu'est qu'une AC intermediaire ?
 - **Autorité de Certification (AC) racine :** Entité de confiance émettant et vérifiant les certificats numériques.
@@ -62,3 +62,28 @@ PKI (Public Key Infrastructure) : Ensemble de ressources, processus, et protocol
 
 ## 17. Connectez-vous sur https://taisen.fr et affichez la chaine de confiance du certificat
 ![Certif Taisen](https://github.com/CyrilDeva/Simplon-AIS/blob/main/Analyser%20la%20s%C3%A9curit%C3%A9%20du%20trafic%20r%C3%A9seau/Screenshots/CertifTaisen.png?raw=true)
+
+
+## 18. Capturer une authentification Kerberos (mettre en place le service si nécessaire)
+![Kerberos](https://github.com/CyrilDeva/Simplon-AIS/blob/main/Analyser%20la%20s%C3%A9curit%C3%A9%20du%20trafic%20r%C3%A9seau/Screenshots/Kerberos.png?raw=true)
+
+## Essayez sur IPv6 (activé par défaut sur Windows Server)
+
+## 20. Capturer une authentification RDP (mettre en place le service si nécessaire)
+![RDP](https://github.com/CyrilDeva/Simplon-AIS/blob/main/Analyser%20la%20s%C3%A9curit%C3%A9%20du%20trafic%20r%C3%A9seau/Screenshots/Rdp.png?raw=true)
+
+## 21. Quelles sont les attaques connues sur NetLM ?
+Les attaques par relais NTLM sont l’un des types d’attaques les plus courants contre Active Directory (AD).
+PetitPotam est une attaque par relais NTLM qui exploite le mécanisme de défi-réponse NTLM et permet de contraindre les serveurs Windows, y compris les contrôleurs de domaine, à s’authentifier auprès d’une destination malveillante, ce qui permet à des adversaires de potentiellement prendre le contrôle d’un domaine Windows entier. Il est recommandé de restreindre l’authentification NTLM et NTLMv2 pour minimiser les risques d’attaques.
+
+## 22. Capturer une authentification WinRM (Vous pouvez utiliser EvilWinRM si nécessaire côté client.)
+![winRM](https://github.com/CyrilDeva/Simplon-AIS/blob/main/Analyser%20la%20s%C3%A9curit%C3%A9%20du%20trafic%20r%C3%A9seau/Screenshots/winrm.png?raw=true)
+
+## 23. Capturer une authentification SSH ou SFTP (mettre en place le service si nécessaire)
+![SSH](https://github.com/CyrilDeva/Simplon-AIS/blob/main/Analyser%20la%20s%C3%A9curit%C3%A9%20du%20trafic%20r%C3%A9seau/Screenshots/ssh.png?raw=true)
+
+## 24. Intercepter un fichier au travers du protocole SMB
+![SMB](https://github.com/CyrilDeva/Simplon-AIS/blob/main/Analyser%20la%20s%C3%A9curit%C3%A9%20du%20trafic%20r%C3%A9seau/Screenshots/smb.png?raw=true)
+
+## 25. Comment proteger l'authenticité et la confidentialité d'un partage SMB ?
+Ne pas utiliser d'ancienne version smb sans chiffrement. Utiliser SMB3.0 ou plus
