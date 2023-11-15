@@ -1,8 +1,8 @@
 # Cryptographie
 
 # Générer et partager une clé de chiffrement AES256 ainsi que les IV avec le destinataire
-![Powershell output](https://github.com/CyrilDeva/Simplon-AIS/blob/main/Introduction%20%C3%A0%20la%20cryptographie/Screenshots/scriptPowershell.png?raw=true)
-![Powershell output](https://github.com/CyrilDeva/Simplon-AIS/blob/main/Introduction%20%C3%A0%20la%20cryptographie/Screenshots/scriptPowershell2.png?raw=true)
+![Powershell output](https://raw.githubusercontent.com/CyrilDeva/Simplon-AIS/main/Introduction%20%C3%A0%20la%20cryptographie/Scrennshots/scriptPowershell.png?raw=true)
+![Powershell2 output](https://raw.githubusercontent.com/CyrilDeva/Simplon-AIS/main/Introduction%20%C3%A0%20la%20cryptographie/Scrennshots/scriptPowershell2.png?raw=true)
 
 
 ## Comment générer une clé de chiffrement de manière sure ? Quel est le risque si les IV sont toujours les mêmes ?
@@ -187,4 +187,4 @@ input("Appuyez sur Entrée pour quitter...")
 ````
 
 #### Output
-![Powershell output](https://github.com/CyrilDeva/Simplon-AIS/blob/main/Introduction%20%C3%A0%20la%20cryptographie/Screenshots/scriptPython.png?raw=true)
+![script Python output](https://raw.githubusercontent.com/CyrilDeva/Simplon-AIS/main/Introduction%20%C3%A0%20la%20cryptographie/Scrennshots/scriptPython.png?raw=true)
