@@ -17,7 +17,7 @@
 ## Comment pourrait-on s'assurer de l'authenticité de ce message ? Ajouter cette fonctionnalité à l'aide d'un script ou d'un outil en CLI.
 - En ajoutant une signature
 
-### Script de cryptage en python
+### Script de chiffrage en python
 
 ````python
 from cryptography.hazmat.backends import default_backend
@@ -109,7 +109,7 @@ print("Signature:", signature.hex())
 input("Appuyez sur Entrée pour quitter...")
 ````
 
-### Script de decryptage en python
+### Script de dechiffrage en python
 
 ````python
 from cryptography.hazmat.backends import default_backend
