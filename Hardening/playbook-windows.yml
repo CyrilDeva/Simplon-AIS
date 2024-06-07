@@ -52,7 +52,7 @@
         name: "DefenderUpdate"
         description: "Update Windows Defender Antivirus daily"
         actions:
-          - path: "%ProgramFiles%\Windows Defender\MpCmdRun.exe"
+          - path: "%ProgramFiles%/Windows Defender/MpCmdRun.exe"
             arguments: "-SignatureUpdate"
         triggers:
           - type: daily
