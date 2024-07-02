@@ -1,6 +1,7 @@
 # RENDU QoS
-##  Config QoS
 
+##  Config QoS
+![alt text](<Screenshots WAN/plan.png>)
 ### show class-map
 ![alt text](<Screenshots WAN/showClassMap.png>)
 
