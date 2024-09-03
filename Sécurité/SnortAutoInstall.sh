@@ -1,7 +1,7 @@
 #!/bin/bash
 #Script to Auto install Snort 3 on Debian 12
-#Based on https://snort-org-site.s3.amazonaws.com/production/document_files/files/000/012/147/original/Snort_3.1.8.0_on_Ubuntu_18_and_20.pdf
-# v1.0 By Cyril D.
+#Based on https://docs.snort.org/start/installation and https://snort-org-site.s3.amazonaws.com/production/document_files/files/000/012/147/original/Snort_3.1.8.0_on_Ubuntu_18_and_20.pdf
+# v0.9 By Cyril D.
 
 echo "Starting Auto Install script"
 
