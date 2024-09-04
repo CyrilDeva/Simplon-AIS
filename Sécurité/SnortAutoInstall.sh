@@ -36,7 +36,7 @@ make -j $(nproc)
 sudo make install
 cd ..
 
-# Install boost + HyperScan
+# Install boost + HyperScan (opitional)
 cd ~/snort_src
 wget https://archives.boost.io/release/1.86.0/source/boost_1_86_0.tar.gz
 tar -xvzf boost_1_86_0.tar.gz
