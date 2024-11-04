@@ -3,6 +3,9 @@
 ## Tableau de bords Zabbix
 ![alt text](Screenshots/Zabbix.png)
 
+## Configuration de l'agent windows 
+![alt text](Screenshots/ZabbixAgentW11.png)
+
 
 # Objectif: Avoir le nombre d'utilisateur AD
 
