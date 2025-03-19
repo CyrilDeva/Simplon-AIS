@@ -3,15 +3,6 @@
 **Auteur :** Cyril D.  
 **Date :** 19/03/2024  
 
-## Table des Matières
-1. [Objectifs](#objectifs)
-2. [Analyse des Preuves](#analyse-des-preuves)
-    - [Hashs des Éléments Transmis](#hashs-des-éléments-transmis)
-    - [Chronologie des Événements](#chronologie-des-événements)
-3. [Conclusion](#conclusion)
-4. [Recommandations](#recommandations)
-5. [Fichiers logs](#fichiers-logs)
-
 ## Objectifs
 - Retracer la timeline des événements.
 - Déterminer si le serveur a été compromis.
